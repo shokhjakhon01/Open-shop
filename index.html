@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open-shop</title>
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="styles/all.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__intro">
+    <div class="container position-relative">
+      <ul class="intro__list container d-flex align-items-center list-unstyled justify-content-end">
+        <button class="close__button"> <i class="fas fa fa-angle-double-up"></i></button>
+        <li><a class="intro__list__link" href="#!">English</a> <span><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 10L12 15L17 10H7Z" fill="#fff"/>
+          </svg>
+          </span></li>
+          <li><i class="fas fa-phone list__icon"></i><a class="intro__list__link" href="#!">(907) 555-0101</a></li>
+          <li><i class="far fa-user list__icon"></i><a class="intro__list__link" href="#!">Sing in</a></li>
+          <li><i class="fal fa-shopping-cart list__icon"></i><a class="intro__list__link" href="#!">Cart</a></li>
+      </ul>
+      <div class="language__menu position-absolute">
+        <a href="#!" class="language__link">Uzbek</a>
+        <a href="#!" class="language__link">Russian</a>
+        <a href="#!" class="language__link">German</a>
+      </div>
+    </div>
+  </div>
+  <div class="container header__next d-flex align-items-center ">
+    <a href="#!" class="header__next__link"></a>
+    
+     <div class="input__searches d-flex">
+      <input type="search" placeholder="What are you looking for?" class="header__next__input ">
+      <a class="header__next__search" href="#!"><i class=" search__icon fas fa-search"></i><span>SEARCH OUR STORE</span></a>
+     </div>
+    <button class="menu__open"><i class="far fa-bars"></i></button>
+  </div>
+  <nav class="header__nav container d-flex justify-content-center">
+    <ul class="nav__list d-flex justify-content-center list-unstyled align-items-center mb-0 w-100 ">
+      <a class="header__nav__link position-relative" href="#!">Cell Phones</a>
+      <a class="header__nav__link position-relative" href="#!">Computers&Laptop</a>
+      <a class="header__nav__link position-relative" href="#!">Tv&Video</a>
+      <a class="header__nav__link position-relative" href="#!">Asseccories</a>
+      <a class="header__nav__link position-relative" href="#!">Home appliance</a>
+      <a class="header__nav__link position-relative" href="#!">Video Games&Consoles</a>
+    </ul>
+    
+  </nav>
+</header>
+<main class="main">
+ <div class="container d-flex carusels">
+  <div id="carouselExampleIndicators" class="carousel slide col-6 carusel__section" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle" ></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="circle" ></button>
+    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="circle"></button> -->
+    </div>
+    <div class="carousel-inner carusels__main">
+      <div class="carousel-item active carusel__main__1">
+        <img src="images/watch1.png" class="d-block w-100 caruesel__img" alt="Watch">
+      </div>
+      <div class="carousel-item">
+        <img src="images/watch.png" class="d-block w-100 caruesel__img" alt="Watch">
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="images/komp.png"  class="d-block w-100 h-100 caruesel__img" alt="komp">
+      </div> -->
+    </div>
+  </div>
+  <div class="carusel__right d-flex flex-column align-items-center justify-content-around">
+    <h1 class="carusel__right__title">Color your days with small joy</h1>
+    <a class="carusel__right__link" href="#1">SHOP NOW</a>
+  </div>
+ </div>
+ <section class="container xiaomi d-flex justify-content-between">
+   <div class="left__watch col-6">
+    <div class="left__percantage">-57%</div>
+    <img class="w-100 left__img" src="images/watch23.png" alt="Watch xiaomi">
+   <div class="d-flex flex-column">
+    <p class="left__watch__text">Suunto SS050143000</p>
+    <h5 class="left__watch__span">70$</h5>
+   </div>
+   </div>
+   
+    <div class="right__watch d-flex flex-column ">
+      <div class="right__intro__watch row position-relative">
+        <img class="w-100 right__img" src="images/airpot.png" alt="airpots">
+        <div class="right__percantage">-30%</div>
+        <p class="right__text">Airpods 2.1</p>
+        <span class="right__span">95$ </span>
+      </div>
+      <div class=" right__watches d-flex h-100 w-100 justify-content-between">
+        <div class="h-100 right__powerbank position-relative">
+          <img class="powerbank__img w-100 h-100" src="images/powerbank.png" alt="">
+          <p class="powerbank__text">Xiaomi Mi Power Bank 2s 10000</p>
+          <span class="powerbank__span">9$</span>
+          <div class="powerbank__percentage">-20%</div>
+        </div>
+        <div class=" h-100 right__powerbank position-relative">
+          <img class="powerbank__img w-100 h-100" src="images/rp.png" alt="">
+          <p class="powerbank__text">Remax RP-W1 White</p>
+          <span class="powerbank__span">11$</span>
+          <div class="powerbank__percentage">-20%</div>
+        </div>
+      
+      </div>
+    </div>
+ </section>
+ <a class="main__link d-flex justify-content-center align-items-center" href="#!">LEARN MORE</a>
+ <h3 class="main__title3 container">Cell Phone</h3>
+ <section class="container iphone__tools d-flex justify-content-between">
+  <div class="tools__infos position-relative">
+    <img class="tools__infos-img w-100 h-100" src="images/iphone12.png" alt="iphone 12">
+    <p class="tools__infos__text">IPhone 12 Pro Max 128GB (Gray)</p>
+    <span class="tools__infos__span">1300$</span>
+  </div>
+  <div class="tools__infos position-relative">
+    <img class="tools__infos-img w-100 h-100" src="images/iphone11.png" alt="iphone 11pro">
+    <p class="tools__infos__text">IPhone 11 Pro 128GB (Yellow)</p>
+    <span class="tools__infos__span">700$</span>
+  </div>
+  <div class="tools__infos position-relative">
+    <img class="tools__infos-img w-100 h-100" src="images/iphone12pro.png" alt="iphone 12pro">
+    <p class="tools__infos__text">IPhone 12 Pro 256 GB (Blue)</p>
+    <span class="tools__infos__span">1500$</span>
+  </div>
+  <div class="tools__infos position-relative">
+    <img class="tools__infos-img w-100 h-100" src="images/iphone11pro.png" alt="iphone 11">
+    <p class="tools__infos__text">IPhone 11 Pro 256 GB (Red)</p>
+    <span class="tools__infos__span">850$</span>
+  </div>
+ </section>
+ <a class="main__link d-flex justify-content-center align-items-center mt60" href="">LEARN MORE</a>
+ <h3 class="main__title3 container">Computers & Laptop</h3>
+ <section class="container laptops d-flex justify-content-between">
+   <div class="laptops__tools position-relative">
+     <img class="laptops__img w-100 h-100" src="images/laptop1.png" alt="laptop">
+     <p class="laptops__text">Lenovo IdeaPad L3 15IML05</p>
+     <span class="laptops__price">1350$</span>
+   </div>
+   <div class="laptops__tools position-relative">
+     <img class="laptops__img w-100 h-100" src="images/laptop2.png" alt="laptop">
+     <p class="laptops__text">Dream Machines G1650Ti-1</p>
+     <span class="laptops__price">1430$</span>
+   </div>
+   <div class="laptops__tools position-relative">
+     <img class="laptops__img w-100 h-100" src="images/laptop3.png" alt="laptop3">
+     <p class="laptops__text">Apple MacBook Air 13" 2020</p>
+     <span class="laptops__price">1723$</span>
+   </div>
+   <div class="laptops__tools position-relative">
+     <img class="laptops__img w-100 h-100" src="images/laptop4.png" alt="laptop4">
+     <p class="laptops__text">Dream Machines 15UA51</p>
+     <span class="laptops__price">1200$</span>
+   </div>
+ </section>
+ <a class="main__link d-flex justify-content-center align-items-center mt30" href="#!">LEARN MORE</a>
+ <section class="playstation container d-flex">
+   <div class="playstation__right">
+     <a class="right__link" href="#!"></a>
+     <h3 class="right__link3">PlayStation 5 Console</h3>
+     <a class="right__link2" href="#!">WATCH NOW</a>
+   </div>
+   <div class="playstation__left"><img class="playstation__left-img" src="images/fff.png" alt="playstation"></div>
+ </section>
+ <h3 class="main__title3 container">Top seller</h3>
+ <section class="topseller container d-flex justify-content-between">
+  <div class="topseller__div position-relative">
+    <img class="topseller__div__img w-100 h-100" src="images/smart1.png" alt="smartWatch">
+    <p class="topseller__div-text">Smart Watch W34 | ZM (White)</p>
+    <span class="topseller__div-price">29$</span>
+  </div>
+  <div class="topseller__div position-relative">
+    <img class="topseller__div__img w-100 h-100" src="images/airpods1.png">
+    <p class="topseller__div-text left">AirPods 2.1</p>
+    <span class="topseller__div-price">135$</span>
+  </div>
+  <div class="topseller__div position-relative">
+    <img class="topseller__div__img w-100 h-100" src="images/smart2.png" alt="smartWatch">
+    <p class="topseller__div-text">Smart Watch W34 | ZM (Black)</p>
+    <span class="topseller__div-price">29$</span>
+  </div>
+  <div class="topseller__div position-relative">
+    <img class="topseller__div__img w-100 h-100" src="images/coffe2.png" alt="coffee">
+    <p class="topseller__div-text">Coffee machine VITEK VT-1526</p>
+    <span class="topseller__div-price">78$</span>
+  </div>
+ </section>
+ <a class="main__link d-flex justify-content-center align-items-center mt30" href="#!">LEARN MORE</a>
+</main>
+<footer class="footer">
+  <nav class="container footer__nav d-flex  justify-content-around w-100">
+    <a class="footer__link" href="#!"></a>
+    <div class="footer__search">
+      <p class="search__text">Subscribe to Newslatter</p>
+      <div class="search__signup d-flex">
+        <input type="text" class="signup__input">
+        <a class="signup__link" href="#!">SING UP</a>
+      </div>
+      <div class="links ">
+        <a class="links__link position-relative " href="#!">News</a>
+        <a class="links__link position-relative" href="#!">Help</a>
+        <a class="links__link position-relative" href="#!">Contat</a>
+      </div>
+    </div>
+    <div class="socials d-flex align-items-start justify-content-center">
+      <a class="socials__link" href="#!"><img src="images/telegram.png" alt="the logo of telegram"></a>
+      <a class="socials__link" href="#!"><img src="images/facebook.png" alt="th logo of facebook"></a>
+      <a class="socials__link" href="#!"><img src="images/instagram.png" alt="the logo of instagram"></a>
+    </div>
+  </nav>
+</footer>
+  <script src="script/script.js"></script>
+  <script src="libs/bootstrap.min.js"></script>
+</body>
+</html>
